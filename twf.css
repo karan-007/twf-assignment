@@ -1,0 +1,266 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Circular Book", sans-serif;
+}
+.jumbotron-fluid{
+    background-image: url('dough.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    margin-top: 0px; 
+}
+#m-btn{
+    background-color: white;
+    color: black;
+    border: none;
+}
+#logo{
+    width: 70px;
+    position: relative;
+    top: 5px; 
+}
+#logo1{
+    width: 25px;
+    display: none;
+}
+#cart{
+    background-color: #5AA5C3;
+    position: fixed;
+    width: 70px;
+    height:70px;
+    left: 75%;
+    bottom: 10px;
+    float: right;
+    display: none;
+    border-radius: 35px;
+    border-style: solid;
+    font-weight: bold;
+}
+#i2{
+    margin-top: 14px;
+}
+#upper-cart{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+#car-img{
+    position: relative;
+    width: 22px;
+    bottom: 9px;
+}
+#cart-text{
+    position: relative;
+    left: -10px;
+    font-size: 25px;
+    bottom: 4px;
+}
+#j2{
+    margin-top: -30px;
+    background-color: #FAFAFA;
+}
+#j2-head{
+    font-weight: bold;
+}
+#j2-text{
+    font-size: 18px;
+}
+#p-head{
+    font-weight: bold;
+    text-align: center;
+    margin-top: -15px;
+}
+.product-list{
+    position: static;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 92%;
+    margin: 0 auto;
+}
+
+.card .card-text{
+    font-size: 15px;
+}
+.card .card-text2{
+    color: grey;
+    margin-top: -15px;
+    font-size: 14px;
+}
+.swiper-container {
+    width:100%;
+    height:40%; 
+    position: static;
+}
+.swiper-slide {
+    position: static;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex; 
+    padding-left: 35px;
+    
+    
+}
+.scard-text{
+    font-size: 17px;
+    color: rgb(97, 96, 96);
+    padding-top: 15px;
+}
+.scard-title{
+    float: left;
+}
+.review-list{
+    position: static;
+    height: 100%;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 120%;
+    margin: 0 auto;
+}
+#s-head{
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+}
+#box{
+    margin-top: 20px;
+}
+#box1{
+    height: 200px;
+    position: static;
+    background-color: #EEF6F9;
+}
+#text-block1{
+    text-align: center;
+    margin-top: 90px;
+}
+#text-block1 a{
+    text-decoration: none;
+}
+#box2{
+    height: 200px;
+    position: static;
+    background-color: #E6F2F6;
+}
+#amazon-pic{
+    width: 100px;
+    margin-bottom: 15px;
+}
+#text-block2{
+    text-align: center;
+    margin-top: 40px;
+}
+#text-block2 a{
+    text-decoration: none;
+}
+.news{
+    text-align: center;
+    position: static;
+}
+#toi{
+    width: 250px;
+    margin-top: 40px;
+}
+#ht{
+    width: 250px;
+    margin-top: 60px;
+}
+#tfe{
+    width: 250px;
+    height: 200px;
+}
+#ndtv{
+    width: 250px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+#slider-back{
+    width: 92%;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+.card .card-body{
+    border-radius: 5px;
+}
+.swiper-container .swiper-wrapper .swiper-slide .card .card-body{
+    position: static;
+}
+.footer{
+    background-color: #E3E7ED;
+    padding-bottom: 20px;
+}
+.f1{
+    position: static;
+    text-align: center;
+    color: rgb(82, 80, 80);
+    line-height: 17px;
+}
+.f1 a{
+    text-decoration: none;
+    color: rgb(82, 80, 80);
+}
+.bt{
+    width: 295px;
+    height: 40px;
+    padding-left:5px;
+    color: rgb(129, 126, 126);
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: -8px;
+}
+#bt1{
+    width: 295px;
+    height: 40px;
+    background-color:#5AA5C3;
+    border:none;
+    border-radius: 3px;
+    color: white;
+}
+#f-img{
+    margin-top: 20px;
+}
+#ft1{
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 12px;
+}
+#ft1 a{
+    color: black;
+    text-decoration: underline;
+}
+#ft2{
+    line-height: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.container-fluid .row .col-md .i1 i{
+    margin: 5px;
+    width: 20px !important;
+    height: 20px !important;
+}
+.f2{
+    text-align: center;
+    position: static;
+}
+@media only screen and (max-width: 500px){
+    #logo{
+        width: 70px;
+       margin: 0 auto;
+    }
+    .navbar{
+        text-align: center;
+    }
+    #logo1{
+        display: block;
+    }
+    #cart{
+        display: block;
+    }
+
+}
